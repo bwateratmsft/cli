@@ -83,6 +83,10 @@ func (c *volumeContext) Name() string {
 	return c.v.Name
 }
 
+func (c *volumeContext) CreatedAt() string {
+	return c.v.CreatedAt
+}
+
 func (c *volumeContext) Driver() string {
 	return c.v.Driver
 }
